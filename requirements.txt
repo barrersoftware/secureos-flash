@@ -1,0 +1,9 @@
+# SecureOS Flash Requirements
+# Python 3.8+
+
+# No external Python dependencies for core framework
+# Uses subprocess to call heimdall binary
+
+# Future additions:
+# - PyQt6 or Tkinter for GUI
+# - pyusb for direct USB communication (advanced)
