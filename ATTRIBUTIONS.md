@@ -1,8 +1,11 @@
 # Attributions and Third-Party Software
 
-## Heimdall
+SecureOS Flash builds upon the work of many talented developers and companies.
+We are grateful for their contributions to the Android ecosystem and open source community.
 
-This project integrates with Heimdall, an open-source tool for flashing Samsung devices.
+## Heimdall - The Foundation
+
+This project would not be possible without Heimdall, an outstanding open-source tool.
 
 - **Project:** Heimdall
 - **Author:** Benjamin Dobell, Glass Echidna
@@ -10,44 +13,105 @@ This project integrates with Heimdall, an open-source tool for flashing Samsung 
 - **Repository:** https://github.com/Benjamin-Dobell/Heimdall
 - **Copyright:** Copyright (c) 2010-2017 Benjamin Dobell, Glass Echidna
 
-Heimdall is used via subprocess calls. We do not distribute Heimdall binaries.
-Users must install Heimdall separately from its official sources.
+**Our Use:**
+- SecureOS Flash integrates with Heimdall via subprocess calls
+- We do NOT distribute Heimdall binaries or claim ownership of Heimdall
+- Users must install Heimdall separately from official sources
+- All credit for the Heimdall project belongs to its creators
 
-## Trademarks
+**Thank you to Benjamin Dobell and contributors for creating and maintaining Heimdall.**
 
-This software mentions various trademarks owned by their respective companies:
+## Trademarks - Respect and Acknowledgment
 
-- **Samsung** - Samsung Electronics Co., Ltd.
-- **Google**, **Android**, **Pixel** - Google LLC
-- **Qualcomm**, **Snapdragon** - Qualcomm Technologies, Inc.
-- **MediaTek** - MediaTek Inc.
-- **LineageOS** - The LineageOS Project
-- **GrapheneOS** - GrapheneOS Project
+The following trademarks are property of their respective owners. We mention them
+only for compatibility and informational purposes, with full respect for their
+intellectual property rights:
 
-These trademarks are mentioned only for compatibility and informational purposes.
-SecureOS Flash is an independent project not affiliated with, endorsed by, or
-sponsored by any of these companies.
+### Device Manufacturers
+- **Samsung®** - Samsung Electronics Co., Ltd.
+  - Galaxy®, Download Mode, and related technologies
+- **Google®** - Google LLC
+  - Android™, Pixel®, Fastboot, and related technologies
+- **Qualcomm®** - Qualcomm Technologies, Inc.
+  - Snapdragon® and related technologies
+- **MediaTek®** - MediaTek Inc.
+  - SP Flash Tool and related technologies
+
+### Operating Systems & Projects
+- **LineageOS®** - The LineageOS Project
+- **GrapheneOS®** - GrapheneOS Project
+
+**Important:** SecureOS Flash is an independent open-source project. We are:
+- NOT affiliated with any of these companies or projects
+- NOT endorsed by any of these companies or projects
+- NOT sponsored by any of these companies or projects
+- NOT claiming any ownership of their trademarks or technologies
+
+We mention these names solely to describe compatibility and functionality.
 
 ## Open Source Components
 
-SecureOS Flash is built using:
+SecureOS Flash is built with these excellent open source projects:
 
 - **Python** - Python Software Foundation License
-- **libusb** (via Heimdall) - GNU LGPL 2.1
+  - https://www.python.org
+- **libusb** (used by Heimdall) - GNU LGPL 2.1
+  - https://libusb.info
 
-## Protocol Information
+## Protocol Documentation
 
-The Samsung flash protocol (Odin 3 protocol) implementation is based on the
-reverse-engineered protocol documentation from the Heimdall project. We do not
-claim any ownership of the protocol itself.
+The Samsung flash protocol (Odin 3 protocol) implementation is based on:
+- Reverse-engineered protocol documentation from the Heimdall project
+- Publicly available technical information
+- Community research and contributions
+
+**We do not claim any ownership of the protocol itself.**  
+All credit for protocol research belongs to the Heimdall project and community.
+
+## Respect and Gratitude
+
+We stand on the shoulders of giants. Every company, developer, and project
+mentioned here has contributed to making Android more open, accessible, and
+powerful. We are grateful for their work and committed to respecting their
+rights while contributing back to the community.
 
 ## Disclaimer
 
-SecureOS Flash is provided "as is" without warranty of any kind. Flashing
-devices carries inherent risks. Users are responsible for any consequences
-of using this software.
+SecureOS Flash is provided "as is" without warranty of any kind, express or
+implied. Flashing devices carries inherent risks including:
+- Void warranties
+- Potential device damage ("bricking")
+- Loss of data
+- Security vulnerabilities if done incorrectly
+
+**Users are solely responsible for any consequences of using this software.**
+
+Always:
+- Backup your data before flashing
+- Read documentation carefully
+- Understand the risks
+- Verify image authenticity
+- Test in safe environments first
 
 ---
 
-If you believe any attribution is missing or incorrect, please open an issue
-at https://github.com/barrersoftware/secureos-flash/issues
+## Reporting Issues
+
+If you believe:
+- Any attribution is missing or incorrect
+- Any trademark is being misused
+- Any copyright is being violated
+- Any credit is not properly given
+
+**Please immediately contact us:**
+- GitHub Issues: https://github.com/barrersoftware/secureos-flash/issues
+- Email: daniel@barrersoftware.com
+
+We are committed to respecting all intellectual property rights and will
+promptly address any concerns.
+
+---
+
+**Built with respect and gratitude by Barrer Software**  
+**Part of the SecureOS project**  
+**🏴‍☠️**
